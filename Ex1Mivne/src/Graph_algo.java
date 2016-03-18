@@ -2,8 +2,7 @@
 public class Graph_algo {
 	Graph G;
 
-	public Graph_algo(Graph G) {
-		this.G = G;
+	public Graph_algo() {
 	}
 	public double MinDistNodes(String name_file,int start,int end){
 		Graph g = new Graph(name_file,start);
